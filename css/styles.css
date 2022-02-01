@@ -163,6 +163,11 @@ button {
   font-style: normal;
 }
 
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+  color: var(--accent-text-color);
+}
+
 .opacity-60 {
   opacity: 0.6;
 }
