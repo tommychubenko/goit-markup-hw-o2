@@ -15,6 +15,10 @@ body {
   color: var(--primary-text-color);
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Спочатку приберемо крапки зі списку */
 
 .nav-links,
