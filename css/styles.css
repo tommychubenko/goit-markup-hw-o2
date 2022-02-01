@@ -1,0 +1,208 @@
+/* Глобальный класс */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --background-color-number-two: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+/* Спочатку приберемо крапки зі списку */
+
+.nav-links,
+.header-contacts,
+.unique-list,
+.images-samples,
+.our-team,
+.footer-adress,
+.selector-list,
+.work-sectors {
+  list-style-type: none;
+}
+
+/* Лого, Нав и Хедер */
+
+/* ЛОГО */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.studio-black {
+  color: var(--primary-text-color);
+}
+.studio-white {
+  color: #ffffff;
+}
+
+/* .logo:hover,
+.logo:focus {
+  text-decoration: underline;
+} */
+
+/* НАВ */
+
+.nav-links .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Лінки з хедеру */
+
+.header-contacts .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* БОДІ */
+
+/* Хероу */
+
+.hero {
+  background-color: var(--background-color-number-two);
+  width: 100%;
+  height: 600px;
+}
+
+.hero .header {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 200px;
+}
+
+.button-hero {
+  background-color: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+  width: 200px;
+  height: 50px;
+}
+
+/* Наші переваги */
+
+.unique-list .header {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.unique-list .text {
+  color: var(--secondary-text-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.theme-topic {
+  font-weight: 700;
+  font-size: 36;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.our-team .header {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.our-team .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: var(--background-color-number-two);
+}
+.footer-adress .link {
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+/* ПОРТФОЛІО */
+
+/* Селектор */
+
+.selector-list {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
+}
+
+.selector-list .button:hover,
+.selector-list .button:focus {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
+
+.work-sectors .link {
+  text-decoration: none;
+}
+.work-sectors .image {
+  width: 370px;
+  height: 294px;
+}
+
+.work-sectors .header {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-sectors .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
